@@ -34,6 +34,6 @@ resource "aws_nat_gateway" "gw8" {
   )
 }
 
-# a1@ Tia video on vpc  from 50:00  he explain the reason why to have more NAT GATWAY.  
-# THE NUMBER OF AVAILIBILITY ZONE IS EQUAL OF THE NUMBER OF NAT GATWAY. 
+#  
+# 
 
