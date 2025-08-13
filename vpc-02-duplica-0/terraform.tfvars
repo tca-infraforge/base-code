@@ -24,7 +24,7 @@ enable_dns_support               = true
 enable_dns_hostnames             = true
 assign_generated_ipv6_cidr_block = false
 
-cluster_name = "19001-dev-del"
+cluster_name = ""
 
 common_tags = {
   "id"             = ""
