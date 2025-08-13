@@ -4,7 +4,7 @@ ec2_instance_type             = "t2.micro"
 sg_name                       = "test"
 instance_name                 = "test"
 vpc_id                        = "aws_vpc.adl_eks_vpc"
-subnet_id                     = "aws_subnet.eks_public_subnet_01"
+subnet_id                     = "aws_subnet.eks_pub_01"
 root_volume_size              = 10
 instance_count                = 1
 enable_termination_protection = false
@@ -15,11 +15,11 @@ allowed_ports = [
   #8080
 ]
 tags = {
-  "id"             = "1988"
-  "owner"          = "DevOps Easy Learning"
+  "id"             = ""
+  "owner"          = ""
   "teams"          = "DEL"
   "environment"    = "dev"
-  "project"        = "coubis"
+  "project"        = ""
   "create_by"      = "Terraform"
   "cloud_provider" = "aws"
 }

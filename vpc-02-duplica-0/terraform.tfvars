@@ -27,11 +27,11 @@ assign_generated_ipv6_cidr_block = false
 cluster_name = "19001-dev-del"
 
 common_tags = {
-  "id"             = "19001"
-  "owner"          = "DevOps Coubis Learning"
+  "id"             = ""
+  "owner"          = ""
   "teams"          = "DEL"
   "environment"    = "dev"
-  "project"        = "beta"
+  "project"        = ""
   "create_by"      = "Terraform"
   "cloud_provider" = "aws"
 }

@@ -20,13 +20,13 @@ variable "ec2_instance_type" {
 variable "vpc_id" {
   type        = string
   description = "VPC ID"
-  default     = "19001-dev-beta-vpc"
+  default     = "-dev-beta-vpc"
 }
 
 variable "subnet_id" {
   type        = string
   description = "Subnet ID for the EC2 instance"
-  default     = "19001-dev-beta-public-02-us-east-1b"
+  default     = "-dev-beta-public-02-us-east-1b"
 }
 
 variable "root_volume_size" {
@@ -73,11 +73,11 @@ variable "allowed_ports" {
 variable "tags" {
   type = map(any)
   default = {
-    "id"             = "1988"
-    "owner"          = "DevOps Easy Learning"
+    "id"             = ""
+    "owner"          = ""
     "teams"          = "DEL"
     "environment"    = "dev"
-    "project"        = "coubis"
+    "project"        = ""
     "create_by"      = "Terraform"
     "cloud_provider" = "aws"
   }
